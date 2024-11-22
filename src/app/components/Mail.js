@@ -1,8 +1,6 @@
 export default function Mail() {
   return (
-    <div
-      className="card rounded-none grid grid-cols-1 md:grid-cols-2 shadow-lg mt-6 mb-6 p-3 bg-base-100 items-center text-left"
-    >
+    <div className="card rounded-none grid grid-cols-1 md:grid-cols-2 shadow-lg mt-6 mb-6 p-3 bg-base-100 items-center text-left">
       <div className="">
         <h3 className="text-gray-800 text-3xl font-bold py-4">Get in touch</h3>
         <p className="text-gray-800 text-2xl py-4 font-normal">
@@ -10,8 +8,7 @@ export default function Mail() {
         </p>
       </div>
       <div className="">
-        <form
-        >
+        <form>
           <div className="mb-4">
             <div className="flex flex-wrap -mx-2">
               <div className="w-full md:w-1/2 px-2">
@@ -31,7 +28,7 @@ export default function Mail() {
                 <input
                   type="email"
                   name="email"
-                  className= "text-gray-800 border border-gray-800 rounded w-full p-2 text-xl"
+                  className="text-gray-800 border border-gray-800 rounded w-full p-2 text-xl"
                 />
               </div>
             </div>
@@ -57,7 +54,8 @@ export default function Mail() {
             <div className="w-full lg:w-3/12 flex justify-end">
               <button
                 type="submit"
-                className="bg-orange-500 text-white px-4 py-2">
+                className="bg-orange-500 text-white px-4 py-2"
+              >
                 Send
               </button>
             </div>

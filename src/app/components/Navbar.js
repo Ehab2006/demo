@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
-    <div className="navbar bg-orange-500 text-neutral-content">
+    <div className="navbar bg-orange-500 text-neutral">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -21,34 +23,46 @@ export default function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-gray-800 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm rounded-none dropdown-content bg-gray-800 text-neutral-content z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Home</a>
+              <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <a>VR</a>
+              <Link href={"/vr"}>VR</Link>
             </li>
             <li>
-              <a>Places</a>
+              <details>
+                <summary>Places</summary>
+                <ul>
+                  <li>
+                    <Link href={"/museum"}>Museum</Link>
+                  </li>
+                  <li>
+                    <Link href={"/famous"}>Famous places</Link>
+                  </li>
+                </ul>
+              </details>
             </li>
             <li>
-              <a>FAQ</a>
+              <Link href={"/faq"}>FAQ</Link>
             </li>
             <li>
-              <a>Contact</a>
+              <Link href={"/contact"}>Contact</Link>
             </li>
             <li>
-              <a>About</a>
+              <Link href={"/about"}>About</Link>
             </li>
           </ul>
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">Demo</a>
+        <Link href={"/"} className="btn btn-ghost text-xl">Demo</Link>
       </div>
       <div className="navbar-end">
-        <button className="btn text-gray-800">Order Now</button>
+        <Link href={"/vr"} className="btn text-gray-800">
+          Order Now <i className="fa-solid fa-bag-shopping"></i>
+        </Link>
       </div>
     </div>
   );
