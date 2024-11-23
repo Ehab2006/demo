@@ -42,7 +42,7 @@ export default function contact() {
 
           <div className="card-actions">
             <Link href="/contact" className="btn text-white bg-blue-800">
-              Contact Us
+              Call Now
             </Link>
           </div>
         </div>
