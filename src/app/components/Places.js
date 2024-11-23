@@ -1,8 +1,8 @@
 export default function Places(props) {
   return (
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-3 justify-items-center pt-6 pb-6 border-b-4 border-orange-500">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-3 justify-items-center pt-6 pb-6 border-b-4 border-blue-800">
       <div className="col-span-1 md:col-span-3">
-        <h2 className="text-orange-500 text-3xl font-bold">{props.title}</h2>
+        <h2 className="text-blue-800 text-3xl font-bold">{props.title}</h2>
       </div>
       {props.places.map((i) => {
         return (
@@ -25,7 +25,7 @@ export default function Places(props) {
                 </div>
               </div>
               <div className="card-actions">
-                <button className="btn w-full text-gray-800 bg-orange-500">
+                <button className="btn w-full text-white bg-blue-800">
                   Visit Now
                 </button>
               </div>

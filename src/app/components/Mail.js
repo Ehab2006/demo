@@ -54,7 +54,7 @@ export default function Mail() {
             <div className="w-full lg:w-3/12 flex justify-end">
               <button
                 type="submit"
-                className="bg-orange-500 text-white px-4 py-2"
+                className="bg-blue-800 text-white px-4 py-2"
               >
                 Send
               </button>

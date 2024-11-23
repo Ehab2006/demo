@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="hero pt-6 pb-6 border-b-4 border-orange-500">
+    <div className="hero pt-6 pb-6 border-b-4 border-blue-800">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           width="300"
@@ -8,7 +8,7 @@ export default function Hero() {
           className="rounded-lg"
         />
         <div>
-          <h1 className="text-5xl font-bold text-center sm:text-start text-orange-500">
+          <h1 className="text-5xl font-bold text-center sm:text-start text-blue-800">
             Demo for you!
           </h1>
           <p className="pt-6 text-4xl text-center sm:text-start text-gray-800">
@@ -21,7 +21,7 @@ export default function Hero() {
           </p>
 
           <div className="grid justify-items-center sm:justify-items-start">
-            <a href="#main" className="btn text-gray-800 bg-orange-500">
+            <a href="#main" className="btn text-white bg-blue-800">
               Explore Now <i className="fa-solid fa-angles-down"></i>
             </a>
           </div>
