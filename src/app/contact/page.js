@@ -34,7 +34,7 @@ export default function contact() {
             </li>
             <li>
               <p className="text-gray-800 text-xl py-6">
-              <i class="fa-brands fa-linkedin"></i> LinkedIn/Ministry of Tourism and Antiquities
+              <i class="fa-brands fa-square-twitter"></i> Twitter/Ministry of Tourism and Antiquities
               </p>
             </li>
             

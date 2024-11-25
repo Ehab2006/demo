@@ -8,13 +8,13 @@ export default function Features() {
       <div className="h-fit flex items-center justify-center">
         <div>
           <img
-            src="https://i.ibb.co/xCRyx6s/hint-demo.png"
+            src="https://i.ibb.co/6RMCPfD/features.png"
             width="145"
             alt=""
           />
         </div>
         <div className="pl-6">
-          <h3 className="text-gray-800 text-2xl font-bold">Easy</h3>
+          <h3 className="text-blue-800 text-2xl font-bold">Easy</h3>
           <p className="text-gray-800 text-xl">
             This is a section. This is a section. This is a section.
           </p>
@@ -24,13 +24,13 @@ export default function Features() {
       <div className="h-fit flex items-center justify-center">
         <div>
           <img
-            src="https://i.ibb.co/xCRyx6s/hint-demo.png"
+            src="https://i.ibb.co/6RMCPfD/features.png"
             width="145"
             alt=""
           />
         </div>
         <div className="pl-6">
-          <h3 className="text-gray-800 text-2xl font-bold">Fast</h3>
+          <h3 className="text-blue-800 text-2xl font-bold">Fast</h3>
           <p className="text-gray-800 text-xl">
             This is a section. This is a section. This is a section.
           </p>
@@ -40,13 +40,13 @@ export default function Features() {
       <div className="h-fit flex items-center justify-center">
         <div>
           <img
-            src="https://i.ibb.co/xCRyx6s/hint-demo.png"
+            src="https://i.ibb.co/6RMCPfD/features.png"
             width="145"
             alt=""
           />
         </div>
         <div className="pl-6">
-          <h3 className="text-gray-800 text-2xl font-bold">Support</h3>
+          <h3 className="text-blue-800 text-2xl font-bold">Support</h3>
           <p className="text-gray-800 text-xl">
             This is a section. This is a section. This is a section.
           </p>

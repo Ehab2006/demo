@@ -3,13 +3,13 @@ export default function Hero() {
     <div className="hero pt-6 pb-6 border-b-4 border-blue-800">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          width="300"
-          src={"https://i.ibb.co/Wncj41x/hero-img.png"}
+          width="350"
+          src={"https://i.ibb.co/K55r80S/hero-img.png"}
           className="rounded-lg"
         />
         <div>
           <h1 className="text-5xl font-bold text-center sm:text-start text-blue-800">
-            Demo for you!
+            Teno for you!
           </h1>
           <p className="pt-6 text-4xl text-center sm:text-start text-gray-800">
             Your guide to the city&rsquo;s attractions and services in Egypt
