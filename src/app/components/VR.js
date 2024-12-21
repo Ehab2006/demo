@@ -29,10 +29,9 @@ export default function VR(props) {
           <div
           key={i.id}
             className="card bg-base-100 rounded-none shadow-xl"
-            style={{ width: "18rem" }}
           >
             <figure className="px-10 pt-10">
-              <img src={i.img} alt="Shoes" className="rounded-xl" />
+            <img src={i.img} alt={i.name} className="rounded-xl" style={{height:"200px"}} />
             </figure>
             <div className="card-body">
               <h3 className="card-title text-gray-800 flex justify-between">

@@ -7,21 +7,32 @@ export default function Places(props) {
       {props.places.map((i) => {
         return (
           <div
-          key={i.id}
+            key={i.id}
             className="card bg-base-100 rounded-none shadow-xl"
-            style={{ width: "18rem" }}
+            
           >
             <figure className="px-10 pt-10">
-              <img src={i.img} alt={i.name} className="rounded-xl" />
+              <img src={i.img} alt={i.name} className="rounded-xl" style={{height:"200px"}} />
             </figure>
-            <div className="card-body">
-              <h3 className="card-title text-gray-800">{i.name}</h3>
-              <div className="flex justify-between">
+            <div className="card-body text-center">
+              <h3 className="font-bold text-3xl text-gray-800 text-center">
+                {i.name}
+              </h3>
+              <div>
                 <div>
-                  <p className="text-gray-800 text-xl">In {i.location}.</p>
+                  <p className="text-gray-800 text-2xl">In {i.location}.</p>
                 </div>
-                <div>
-                  <p className="text-gray-800 text-xl">{i.price}$</p>
+                <div className="grid grid-cols-2 m-2">
+                  <div className="text-start">
+                    <p className="text-gray-800 text-xl font-bold">Once:</p>
+                    <p className="text-gray-800 text-xl font-bold">Per month:</p>
+                    <p className="text-gray-800 text-xl font-bold">Per year:</p>
+                  </div>
+                  <div className="text-end">
+                    <p className="text-gray-800 text-xl font-bold">{i.oncePrice}$</p>
+                    <p className="text-gray-800 text-xl font-bold">{i.monthPrice}$</p>
+                    <p className="text-gray-800 text-xl font-bold">{i.yearPrice}$</p>
+                  </div>
                 </div>
               </div>
               <div className="card-actions">
