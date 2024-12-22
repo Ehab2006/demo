@@ -112,7 +112,7 @@ export default function faq() {
           <ul>
             {FAQS.map((f) => {
               return (
-                <li className="py-1">
+                <li className="py-1" key={f.question}>
                   <div tabIndex={0} className="collapse  collapse-arrow">
                     <input type="checkbox" />
                     <div className="collapse-title text-xl font-medium">
