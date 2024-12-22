@@ -14,12 +14,12 @@ export default function contact() {
           <ul>
             <li>
               <p className="text-gray-800 text-xl py-6">
-              <i class="fa-solid fa-phone"></i> +20 1097958700
+              <i class="fa-solid fa-phone"></i> HotLine: 19654
               </p>
             </li>
             <li>
               <p className="text-gray-800 text-xl py-6">
-              <i class="fa-solid fa-envelope"></i> ehabgoo2006@gmail.com
+              <i class="fa-solid fa-envelope"></i> moa.portal@mota.gov.eg
               </p>
             </li>
             <li>
@@ -29,12 +29,12 @@ export default function contact() {
             </li>
             <li>
               <p className="text-gray-800 text-xl py-6">
-              <i class="fa-brands fa-facebook"></i> FaceBook/Ministry of Tourism and Antiquities
+              <i class="fa-brands fa-facebook"></i> @TourismandAntiq
               </p>
             </li>
             <li>
               <p className="text-gray-800 text-xl py-6">
-              <i class="fa-brands fa-square-twitter"></i> Twitter/Ministry of Tourism and Antiquities
+              <i class="fa-brands fa-square-twitter"></i> @TourismandAntiq
               </p>
             </li>
             

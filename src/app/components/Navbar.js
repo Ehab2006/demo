@@ -46,17 +46,7 @@ export default function Navbar() {
                 <Link href={"/vr"}><i class="fa-solid fa-vr-cardboard"></i> VR</Link>
               </li>
               <li>
-                <details>
-                  <summary><i class="fa-solid fa-globe"></i> Places</summary>
-                  <ul>
-                    <li>
-                      <Link href={"/museum"}>Museum</Link>
-                    </li>
-                    <li>
-                      <Link href={"/famous"}>Famous places</Link>
-                    </li>
-                  </ul>
-                </details>
+                <Link href={"/place"}><i class="fa-solid fa-globe"></i> Place</Link>
               </li>
               <li>
                 <Link href={"/faq"}><i class="fa-solid fa-circle-question"></i> FAQ</Link>

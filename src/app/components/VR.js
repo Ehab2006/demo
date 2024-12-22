@@ -4,19 +4,8 @@ export default function VR(props) {
       id: 1,
       name: "Product01",
       img: "https://i.ibb.co/gyPdmFf/2761591867.jpg",
-      price: 7,
-    },
-    {
-      id: 2,
-      name: "Product02",
-      img: "https://i.ibb.co/gyPdmFf/2761591867.jpg",
-      price: 12,
-    },
-    {
-      id: 3,
-      name: "Product03",
-      img: "https://i.ibb.co/gyPdmFf/2761591867.jpg",
-      price: 20,
+      priceEgy: 3500,
+      priceUSA: 69,
     },
   ];
   return (
@@ -36,7 +25,8 @@ export default function VR(props) {
             <div className="card-body">
               <h3 className="card-title text-gray-800 flex justify-between">
                 <span>{i.name}</span>
-              <span>{i.price}$</span>
+              <span>{i.priceEgy}L.E</span>
+              <span>{i.priceUSA}$</span>
               </h3>
               <p className="text-gray-800 text-xl"></p>
               <div className="card-actions">

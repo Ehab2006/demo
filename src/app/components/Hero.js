@@ -8,9 +8,6 @@ export default function Hero() {
           className="rounded-lg"
         />
         <div>
-          <h1 className="text-5xl font-bold text-center sm:text-start text-blue-800">
-            Teno for you!
-          </h1>
           <p className="pt-6 text-4xl text-center sm:text-start text-gray-800">
             Your guide to the city&rsquo;s attractions and services in Egypt
             wherever you are with an amazing VR experience.

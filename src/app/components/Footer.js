@@ -1,20 +1,26 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
       <footer className="footer text-white bg-blue-800 text-xl p-10">
         <nav>
           <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <Link href="/place" className="link link-hover">
+            Places
+          </Link>
+          <Link href="/vr" className="link link-hover">
+            VRs
+          </Link>
         </nav>
         <nav>
           <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <Link href="/about" className="link link-hover">
+            About us
+          </Link>
+          <Link href="/contact" className="link link-hover">
+            Contact
+          </Link>
         </nav>
         <nav>
           <h6 className="footer-title">Legal</h6>
@@ -25,13 +31,13 @@ export default function Footer() {
       </footer>
       <footer className="footer text-white bg-blue-800 text-xl border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
-        <img
+          <img
             src="https://mota.gov.eg/media/y2fh3r0i/ta.png"
             alt="logo"
             className="h-24"
           />
           <p>
-            Teno Industries Ltd.
+            EgyptVR Industries Ltd.
             <br />
             Providing reliable tech since 2024
           </p>
