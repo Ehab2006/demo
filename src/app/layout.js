@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Teno-Tech",
+  title: "Experience Egypt VR",
   description: "Your guide to the city 's attractions and services in Egypt wherever you are with an amazing VR experience.",
 };
 
